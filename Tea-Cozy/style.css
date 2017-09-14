@@ -5,6 +5,7 @@ html {
   font-size: 22px;
   margin: 0px;
   text-align: center;
+  opacity: 0.9;
 }
 h2, h4, h5 {
   margin: 20px;
@@ -78,6 +79,7 @@ h2, h4, h5 {
   width: 300px;
   margin: 15px 0px 15px 20px;
   z-index: 10;
+  opacity: 1;
 }
 
 /*footer*/
