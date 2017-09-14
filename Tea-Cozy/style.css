@@ -1,0 +1,162 @@
+html {
+  background-color: black;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0px;
+  text-align: center;
+}
+h2, h4, h5 {
+  margin: 20px;
+}
+
+.head, .mission, .shop {
+  background-color: black; 
+}
+
+
+/*nav*/
+
+.head {
+  height: 69px;
+  padding: 0 10px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 10;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navigation span {
+  margin-left: 30px;
+  text-decoration: underline;
+}
+
+/* main body*/
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin-bottom: 40px;
+  height: 700px;
+}
+
+.feature, .intro {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.tea h4 {
+  margin-top: 10px;
+}
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  margin-top: 40px;
+  height: 500px;
+}
+
+.row {
+  height: 200px;
+}
+
+.shop {
+  width: 300px;
+  margin: 15px 0px 15px 20px;
+  z-index: 10;
+}
+
+/*footer*/
+
+.footer {
+  height: 200px;
+  padding-top: 20px;
+}
+
+.copyright {
+  text-align: left;
+  padding: 20px;
+}
+
+
+
+/*flexbox styling*/
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.feature {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.locations {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.locations h2 {
+  align-self: center;
+}
+
+.row{
+display: flex;
+width: 100%;
+justify-content: space-around;
+
+}
+
+.shop {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
